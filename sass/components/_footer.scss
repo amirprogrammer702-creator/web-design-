@@ -1,0 +1,13 @@
+@use '../base' as *;
+
+
+footer {
+    background-color: theme-color(Secondary);
+
+
+    p {
+        text-align: center;
+        color: theme-color(text);
+        font-size: calc(1.325rem + 0.9vw);
+    }
+}

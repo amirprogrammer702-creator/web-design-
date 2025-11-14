@@ -1,0 +1,21 @@
+@use '../base' as *;
+
+header {
+    background-color: theme-color(Warning);
+    color: theme-color(text);
+    // padding: 5px;
+//    margin-top: 5px;
+    p {
+        text-align: center;
+        font-weight: bolder;
+    }
+}
+
+ section.p-2{
+    // padding: 3rem;
+    background-color: theme-color(Success);
+    font-size: 1.25rem;
+    --bs-text-opacity: 1;
+    color: theme-color(Secondary);
+
+}

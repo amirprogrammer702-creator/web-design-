@@ -1,0 +1,45 @@
+@use '../base' as *;
+
+div{
+
+    #d1{
+        display: flex;
+        margin-top: 1.5rem;
+        color: rgb(120, 159, 194);
+      text-decoration: none;
+    }
+
+}
+
+nav {
+    padding: 0.5rem;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+
+    ul {
+        padding-left: 0;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    li {
+
+
+        a {
+            color: white;
+            text-decoration: none;
+            margin-right: 0.5rem;
+
+            &:hover {
+              
+                color: aqua;
+            }
+        }
+    }
+}
